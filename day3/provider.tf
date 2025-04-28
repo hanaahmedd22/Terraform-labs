@@ -1,5 +1,5 @@
 provider "aws" {
-  region = var.region 
+  region = module.network.region 
   profile = "default" 
   
 }
